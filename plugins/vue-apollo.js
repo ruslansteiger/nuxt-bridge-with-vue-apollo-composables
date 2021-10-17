@@ -4,11 +4,7 @@ import {
   InMemoryCache,
   createHttpLink,
 } from '@apollo/client/core'
-import {
-  provide,
-  onGlobalSetup,
-  defineNuxtPlugin,
-} from '@nuxtjs/composition-api'
+import { provide, onGlobalSetup, defineNuxtPlugin } from '@nuxt/bridge'
 import { DefaultApolloClient } from '@vue/apollo-composable'
 
 export default defineNuxtPlugin(() => {

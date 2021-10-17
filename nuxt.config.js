@@ -1,5 +1,5 @@
-export default {
-  plugins: ['~/plugins/vue-apollo.js'],
+import { defineNuxtConfig } from '@nuxt/bridge'
 
-  buildModules: ['@nuxtjs/composition-api/module'],
-}
+export default defineNuxtConfig({
+  plugins: ['~/plugins/vue-apollo.js'],
+})
